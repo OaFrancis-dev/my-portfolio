@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oa Francis - Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&family=Poppins:wght@500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- <link rel="stylesheet" href="main.css" /> -->
+    <link
+      rel="stylesheet"
+      href="small_screen.css"
+      media="screen and (max-width: 500px)"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav id="main_nav">
+        <div class="top_navigation">
+          <a href="index.html"
+            ><span class="material-symbols-outlined home_btn home_menu">
+              home
+            </span></a
+          >
+          <span
+            class="material-symbols-outlined nav_menu"
+            id="navmenu"
+            onclick="showNavMenu()"
+          >
+            menu
+          </span>
+        </div>
+        <ul id="nav_list">
+          <li><a href="about.html" class="nav_menu">About</a></li>
+          <li><a href="contact.html" class="nav_menu">Contact</a></li>
+          <li><a href="portfolio.html" class="nav_menu">Portfolio</a></li>
+        </ul>
+      </nav>
+      <section class="main_section">
+        <div class="image_area"></div>
+        <div class="text_area">
+          <h1>Hi, I'm Oa Francis!</h1>
+          <p>
+            Welcome to my page, I am a full-stack web developer, click the
+            button below to explore my free mini projects with source code.
+          </p>
+          <button>
+            explore
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </button>
+        </div>
+      </section>
+    </header>
+    <footer></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
